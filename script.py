@@ -132,9 +132,9 @@ def run(filename):
         coords = []
         coords1 = []
 
-        # if num_frames != 1:
-        #     for k in frames[frame]:
-        #         symbols[k][1] = frames[frame][k]
+        if num_frames != 1:
+            for k in frames[frame]:
+                symbols[k][1] = frames[frame][k]
 
         for command in commands:
             # print(command)
